@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="UTF-8">
-   <title>Add Nurse Form</title>
-</head>
-<body>
-	<form action="AddNurse" method="post">
-
-		ID:<input type="number" name="id" /><br />
-		<br /> First Name:<input type="text" name="firstName" /><br />
-		<br /> Last Name:<input type="text" name="lastName" /><br />
-		<br /> Country: <select name="countryCode">
-			<option>USA</option>
-			<option>Ghana</option>
-			<option>other</option>
-		</select> <br />
-		<br /> <input type="submit" value="AddNurse" />
-
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Add Nurse Form</title>
+  </head>
+  <body>
+    <form action="AddNurse" method="post"> <b><big>ID:<input value="0"
+            name="id" type="number"></big></b><br>
+      <br>
+      <big><b>First Name:</b></big><input name="firstName" type="text"><br>
+      <br>
+      <big><b>Last Name:</b></big><input name="lastName" type="text"><br>
+      <br>
+      <big><b>Country:</b></big>
+      <select name="countryCode">
+        <option selected="selected">USA</option>
+        <option>Ghana</option>
+        <option>other</option>
+      </select>
+      <br>
+      <br>
+      <big> <input value="AddNurse" type="submit">
+      </big>
 	</form>
-</body>
-</html>
+
+
+</body></html>
